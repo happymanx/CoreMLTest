@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MLMainViewController">
+            <connections>
+                <outlet property="photoImageView" destination="rs8-g6-b4P" id="Jno-a5-wyB"/>
+                <outlet property="statementLabel" destination="bOP-pv-KKl" id="Mcb-Kf-8a8"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="辨識中" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOP-pv-KKl">
+                    <rect key="frame" x="20" y="587" width="335" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="XD9-p9-lWG"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cat.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="rs8-g6-b4P">
+                    <rect key="frame" x="20" y="60" width="335" height="335"/>
+                    <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="rs8-g6-b4P" secondAttribute="height" id="mDE-HT-Y8z"/>
+                    </constraints>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFN-W5-Y7E">
+                    <rect key="frame" x="20" y="415" width="335" height="60"/>
+                    <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="Zal-3l-lP5"/>
+                    </constraints>
+                    <state key="normal" title="選擇相片">
+                        <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="photoImageButtonClicked:" destination="-1" eventType="touchUpInside" id="PrT-VV-qNl"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.80000001190000003" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="IFN-W5-Y7E" firstAttribute="top" secondItem="rs8-g6-b4P" secondAttribute="bottom" constant="20" id="0wI-RD-4bg"/>
+                <constraint firstItem="rs8-g6-b4P" firstAttribute="top" secondItem="Q5M-cg-NOt" secondAttribute="top" constant="40" id="112-NW-J4x"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="rs8-g6-b4P" secondAttribute="trailing" constant="20" id="4DM-Zb-gZD"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="IFN-W5-Y7E" secondAttribute="trailing" constant="20" id="FkB-gt-fcr"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="trailing" secondItem="bOP-pv-KKl" secondAttribute="trailing" constant="20" id="KPc-a9-Lij"/>
+                <constraint firstItem="Q5M-cg-NOt" firstAttribute="bottom" secondItem="bOP-pv-KKl" secondAttribute="bottom" constant="20" id="Nv0-ms-kJz"/>
+                <constraint firstItem="IFN-W5-Y7E" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="QDw-A4-XAw"/>
+                <constraint firstItem="bOP-pv-KKl" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="hBY-mm-DUe"/>
+                <constraint firstItem="rs8-g6-b4P" firstAttribute="leading" secondItem="Q5M-cg-NOt" secondAttribute="leading" constant="20" id="u8a-Wm-HRP"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="Q5M-cg-NOt"/>
+            <point key="canvasLocation" x="-581" y="-153"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cat.jpeg" width="1100" height="1080"/>
+    </resources>
+</document>
