@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MLMainViewController.h"
+#import "MLSleepViewController.h"
 
 @interface AppDelegate ()
 
@@ -18,7 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-    MLMainViewController *mainVC = [[MLMainViewController alloc] init];
+    MLSleepViewController *mainVC = [[MLSleepViewController alloc] init];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:mainVC];
     mainVC.navigationController.navigationBarHidden = YES;
     self.window.rootViewController = navigationController;

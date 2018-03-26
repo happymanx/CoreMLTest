@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C026AEA2068C70000F808EF /* slp01b.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C026AE92068C70000F808EF /* slp01b.txt */; };
+		7C08CDAC2063B2EC00F2681F /* slp01a.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7C08CDAB2063B2EC00F2681F /* slp01a.txt */; };
+		7C5FCCF42060F110002A28C0 /* MLSleepViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7C5FCCF22060F110002A28C0 /* MLSleepViewController.mm */; };
+		7C5FCCF52060F110002A28C0 /* MLSleepViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7C5FCCF32060F110002A28C0 /* MLSleepViewController.xib */; };
+		7C5FCCF72060F2B3002A28C0 /* MitBihSleepDbSleepSVC.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7C5FCCF62060F2B3002A28C0 /* MitBihSleepDbSleepSVC.mlmodel */; };
+		7CEB633520621482005CC627 /* slp01aX.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7CEB633420621482005CC627 /* slp01aX.txt */; };
+		7CEB63382062388D005CC627 /* SDChartBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEB63362062388D005CC627 /* SDChartBaseViewController.m */; };
+		7CEB633B2062394C005CC627 /* DayAxisValueFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CEB633A2062394C005CC627 /* DayAxisValueFormatter.m */; };
 		7CF0601C205F96F900D09874 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0601B205F96F900D09874 /* AppDelegate.m */; };
 		7CF0601F205F96F900D09874 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0601E205F96F900D09874 /* ViewController.m */; };
 		7CF06022205F96F900D09874 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF06020205F96F900D09874 /* Main.storyboard */; };
@@ -33,9 +41,24 @@
 		7CF06080205FB66100D09874 /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0607F205FB66100D09874 /* GoogLeNetPlaces.mlmodel */; };
 		7CF06082205FBA7100D09874 /* cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7CF06081205FBA7100D09874 /* cat.jpg */; };
 		7CF06084205FBB3600D09874 /* cat.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7CF06083205FBB3600D09874 /* cat.jpeg */; };
+		920B883DBD798E5782EAB474 /* Pods_TestCoreML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62930DF083E3C07EB568EB30 /* Pods_TestCoreML.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		155BE208D2CA47E88611E1FB /* Pods-TestCoreML.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCoreML.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestCoreML/Pods-TestCoreML.release.xcconfig"; sourceTree = "<group>"; };
+		5DB15518109183FCE75B8B51 /* Pods-TestCoreML.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestCoreML.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestCoreML/Pods-TestCoreML.debug.xcconfig"; sourceTree = "<group>"; };
+		62930DF083E3C07EB568EB30 /* Pods_TestCoreML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestCoreML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C026AE92068C70000F808EF /* slp01b.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = slp01b.txt; sourceTree = "<group>"; };
+		7C08CDAB2063B2EC00F2681F /* slp01a.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = slp01a.txt; sourceTree = "<group>"; };
+		7C5FCCF12060F110002A28C0 /* MLSleepViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MLSleepViewController.h; sourceTree = "<group>"; };
+		7C5FCCF22060F110002A28C0 /* MLSleepViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MLSleepViewController.mm; sourceTree = "<group>"; };
+		7C5FCCF32060F110002A28C0 /* MLSleepViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MLSleepViewController.xib; sourceTree = "<group>"; };
+		7C5FCCF62060F2B3002A28C0 /* MitBihSleepDbSleepSVC.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MitBihSleepDbSleepSVC.mlmodel; sourceTree = "<group>"; };
+		7CEB633420621482005CC627 /* slp01aX.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = slp01aX.txt; sourceTree = "<group>"; };
+		7CEB63362062388D005CC627 /* SDChartBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDChartBaseViewController.m; sourceTree = "<group>"; };
+		7CEB63372062388D005CC627 /* SDChartBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDChartBaseViewController.h; sourceTree = "<group>"; };
+		7CEB63392062394B005CC627 /* DayAxisValueFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DayAxisValueFormatter.h; sourceTree = "<group>"; };
+		7CEB633A2062394C005CC627 /* DayAxisValueFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DayAxisValueFormatter.m; sourceTree = "<group>"; };
 		7CF06017205F96F900D09874 /* TestCoreML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCoreML.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CF0601A205F96F900D09874 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7CF0601B205F96F900D09874 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,17 +128,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				920B883DBD798E5782EAB474 /* Pods_TestCoreML.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		235CD6825F95EDDEDE7DDCCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DB15518109183FCE75B8B51 /* Pods-TestCoreML.debug.xcconfig */,
+				155BE208D2CA47E88611E1FB /* Pods-TestCoreML.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7CF0600E205F96F900D09874 = {
 			isa = PBXGroup;
 			children = (
 				7CF06019205F96F900D09874 /* TestCoreML */,
 				7CF06018205F96F900D09874 /* Products */,
+				235CD6825F95EDDEDE7DDCCF /* Pods */,
+				9C5D35869B1BBDD9BECE17D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,6 +185,10 @@
 		7CF06030205F98AE00D09874 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				7C08CDAB2063B2EC00F2681F /* slp01a.txt */,
+				7C026AE92068C70000F808EF /* slp01b.txt */,
+				7CEB633420621482005CC627 /* slp01aX.txt */,
+				7C5FCCF62060F2B3002A28C0 /* MitBihSleepDbSleepSVC.mlmodel */,
 				7CF06083205FBB3600D09874 /* cat.jpeg */,
 				7CF0607F205FB66100D09874 /* GoogLeNetPlaces.mlmodel */,
 				7CF06081205FBA7100D09874 /* cat.jpg */,
@@ -165,6 +204,13 @@
 				7CF06034205F9CD200D09874 /* MLMainViewController.h */,
 				7CF06035205F9CD200D09874 /* MLMainViewController.m */,
 				7CF06036205F9CD200D09874 /* MLMainViewController.xib */,
+				7C5FCCF12060F110002A28C0 /* MLSleepViewController.h */,
+				7C5FCCF22060F110002A28C0 /* MLSleepViewController.mm */,
+				7C5FCCF32060F110002A28C0 /* MLSleepViewController.xib */,
+				7CEB63372062388D005CC627 /* SDChartBaseViewController.h */,
+				7CEB63362062388D005CC627 /* SDChartBaseViewController.m */,
+				7CEB63392062394B005CC627 /* DayAxisValueFormatter.h */,
+				7CEB633A2062394C005CC627 /* DayAxisValueFormatter.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -248,6 +294,14 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
+		9C5D35869B1BBDD9BECE17D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62930DF083E3C07EB568EB30 /* Pods_TestCoreML.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -255,9 +309,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CF0602D205F96F900D09874 /* Build configuration list for PBXNativeTarget "TestCoreML" */;
 			buildPhases = (
+				E471D5723395F5D8DDA36D3B /* [CP] Check Pods Manifest.lock */,
 				7CF06013205F96F900D09874 /* Sources */,
 				7CF06014205F96F900D09874 /* Frameworks */,
 				7CF06015205F96F900D09874 /* Resources */,
+				BCF3F31CB891764ADA561849 /* [CP] Embed Pods Frameworks */,
+				054475D2999DDEA323205C8B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -327,7 +384,11 @@
 			files = (
 				7CF06084205FBB3600D09874 /* cat.jpeg in Resources */,
 				7CF06027205F96F900D09874 /* LaunchScreen.storyboard in Resources */,
+				7C08CDAC2063B2EC00F2681F /* slp01a.txt in Resources */,
+				7CEB633520621482005CC627 /* slp01aX.txt in Resources */,
+				7C5FCCF52060F110002A28C0 /* MLSleepViewController.xib in Resources */,
 				7CF06024205F96F900D09874 /* Assets.xcassets in Resources */,
+				7C026AEA2068C70000F808EF /* slp01b.txt in Resources */,
 				7CF06038205F9CD200D09874 /* MLMainViewController.xib in Resources */,
 				7CF06082205FBA7100D09874 /* cat.jpg in Resources */,
 				7CF0607E205FB49700D09874 /* tree.png in Resources */,
@@ -340,22 +401,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		054475D2999DDEA323205C8B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestCoreML/Pods-TestCoreML-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BCF3F31CB891764ADA561849 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TestCoreML/Pods-TestCoreML-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestCoreML/Pods-TestCoreML-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E471D5723395F5D8DDA36D3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestCoreML-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7CF06013205F96F900D09874 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C5FCCF72060F2B3002A28C0 /* MitBihSleepDbSleepSVC.mlmodel in Sources */,
 				7CF0606E205F9EA200D09874 /* UIImage+CropRotate.m in Sources */,
+				7CEB63382062388D005CC627 /* SDChartBaseViewController.m in Sources */,
 				7CF0606B205F9EA200D09874 /* TOActivityCroppedImageProvider.m in Sources */,
 				7CF06071205F9EA200D09874 /* TOCropScrollView.m in Sources */,
 				7CF06073205F9EA200D09874 /* TOCropView.m in Sources */,
 				7CF0601F205F96F900D09874 /* ViewController.m in Sources */,
 				7CF06037205F9CD200D09874 /* MLMainViewController.m in Sources */,
+				7C5FCCF42060F110002A28C0 /* MLSleepViewController.mm in Sources */,
 				7CF0607C205FA20800D09874 /* MLCommon.m in Sources */,
 				7CF06032205F98AE00D09874 /* Inceptionv3.mlmodel in Sources */,
 				7CF0606F205F9EA200D09874 /* TOCropViewController.m in Sources */,
 				7CF06072205F9EA200D09874 /* TOCropToolbar.m in Sources */,
 				7CF0602A205F96F900D09874 /* main.m in Sources */,
+				7CEB633B2062394C005CC627 /* DayAxisValueFormatter.m in Sources */,
 				7CF06080205FB66100D09874 /* GoogLeNetPlaces.mlmodel in Sources */,
 				7CF0606D205F9EA200D09874 /* TOCropViewControllerTransitioning.m in Sources */,
 				7CF0606C205F9EA200D09874 /* TOCroppedImageAttributes.m in Sources */,
@@ -519,6 +638,7 @@
 		};
 		7CF0602E205F96F900D09874 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB15518109183FCE75B8B51 /* Pods-TestCoreML.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
@@ -536,6 +656,7 @@
 		};
 		7CF0602F205F96F900D09874 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 155BE208D2CA47E88611E1FB /* Pods-TestCoreML.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
